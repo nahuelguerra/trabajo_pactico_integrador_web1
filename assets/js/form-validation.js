@@ -45,6 +45,10 @@ function limpiarErrores() {
 form.addEventListener('submit', function(e) {
   e.preventDefault();
   limpiarErrores();
+  const exitoPrevio = document.querySelector('.exito-card');
+  if (exitoPrevio) {
+    exitoPrevio.remove();
+  }
 
   let formularioValido = true;
 
@@ -97,10 +101,7 @@ form.addEventListener('submit', function(e) {
 
   // Exito
   if (formularioValido) {
-    const exitoPrevio = document.querySelector('.exito-card');
-    if (exitoPrevio) {
-      exitoPrevio.remove();
-    }
+    
 
     const exitoCard = document.createElement('div');
     exitoCard.className = 'exito-card';
