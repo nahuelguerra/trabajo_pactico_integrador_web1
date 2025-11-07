@@ -7,23 +7,23 @@
 const imagenes = [
     {
         url: 'assets/images/carousel/1.jpg',
-        descripcion: 'Imagen 1'
+        descripcion: 'Desarrollo Web Moderno'
     },
     {
         url: 'assets/images/carousel/2.jpg',
-        descripcion: 'Imagen 2'
+        descripcion: 'Código Limpio y Eficiente'
     },
     {
         url: 'assets/images/carousel/3.jpg',
-        descripcion: 'Imagen 3'
+        descripcion: 'Diseño Responsivo'
     },
     {
         url: 'assets/images/carousel/4.jpg',
-        descripcion: 'Imagen 4'
+        descripcion: 'Tecnologías Modernas'
     },
     {
         url: 'assets/images/carousel/5.jpg',
-        descripcion: 'Imagen 5'
+        descripcion: 'Innovación Digital'
     }
 ];
 
