@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - UvaCode</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico?v=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico?v=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Menú de navegación con flexbox -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/UvaCode.png" alt="UvaCode Logo" class="logo-img">
+                <h1>UvaCode</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <!-- Sección de bienvenida -->
+        <section class="hero">
+            <h2>Bienvenido a UvaCode</h2>
+            <p>Este es un proyecto integrador desarrollado con HTML, CSS y JavaScript vanilla.</p>
+            <p><strong>Integrantes:</strong> Nahuel Emiliano Guerra y Juan Manuel Fernandez</p>
+        </section>
+
+        <!-- Carrousel de imágenes -->
+        <section class="carousel-section">
+            <h2>Galería de Imágenes</h2>
+            <div class="carousel-container">
+                <!-- Botón anterior -->
+                <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+
+                <!-- Contenedor de la imagen -->
+                <div class="carousel-slide">
+                    <img id="carouselImage" src="" alt="Imagen del carrousel">
+                    <div class="carousel-caption">
+                        <p id="carouselCaption"></p>
+                    </div>
+                </div>
+
+                <!-- Botón siguiente -->
+                <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+            </div>
+
+            <!-- Indicadores (puntos) -->
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>
+
+        <!-- Sección de información general -->
+        <section class="info-section">
+            <h2>Acerca de Este Proyecto</h2>
+            <div class="info-content">
+                <p>Este sitio web fue desarrollado como proyecto integrador para demostrar el dominio de:</p>
+                <ul>
+                    <li>HTML5 semántico y estructurado</li>
+                    <li>CSS3 con Flexbox para layouts responsivos</li>
+                    <li>JavaScript vanilla para interactividad</li>
+                    <li>Validación de formularios con expresiones regulares</li>
+                    <li>Manipulación del DOM</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <img src="assets/images/UvaCode.png" alt="UvaCode Logo" class="footer-logo">
+        <p>&copy; 2025 UvaCode. Todos los derechos reservados.</p>
+        <p>Desarrollado por: Nahuel Emiliano Guerra y Juan Manuel Fernandez</p>
+    </footer>
+
+    <!-- JavaScript del carrousel -->
+    <script src="assets/js/carousel.js"></script>
+</body>
+</html>
