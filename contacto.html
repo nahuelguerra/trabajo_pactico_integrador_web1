@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - UvaCode</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico?v=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico?v=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/UvaCode.png" alt="UvaCode Logo" class="logo-img">
+                <h1>UvaCode</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenedor prpal -->
+    <main class="container">
+        <h2 class="page-title">Contacto</h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p>
+                    Completa el formulario y nos pondremos en contacto contigo
+                    lo antes posible.
+                </p>
+                <div class="info-item">
+                    <span class="icon">📧</span>
+                    <span>info@misitio.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📱</span>
+                    <span>+54 9 266 123-4567</span>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <span>San Luis, Argentina</span>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form-container">
+                <form id="contactForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingresa tu nombre completo"
+                            maxlength="50"
+                        >
+                        <div class="error-message" id="errorNombre"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="ejemplo@correo.com"
+                        >
+                        <div class="error-message" id="errorEmail"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="+54 9 266 123-4567"
+                        >
+                        <div class="error-message" id="errorTelefono"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="asunto">Asunto *</label>
+                        <input
+                            type="text"
+                            id="asunto"
+                            name="asunto"
+                            placeholder="Motivo de tu consulta"
+                            maxlength="100"
+                        >
+                        <div class="error-message" id="errorAsunto"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="5"
+                            placeholder="Escribe tu mensaje aquí..."
+                            maxlength="500"
+                        ></textarea>
+                        <div class="error-message" id="errorMensaje"></div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <img src="assets/images/UvaCode.png" alt="UvaCode Logo" class="footer-logo">
+        <p>&copy; 2025 UvaCode. Todos los derechos reservados.</p>
+        <p>Desarrollado por: Nahuel Emiliano Guerra y Juan Manuel Fernandez</p>
+    </footer>
+
+    <!-- JS de validacion -->
+    <script src="assets/js/form-validation.js"></script>
+</body>
+</html>
