@@ -1,30 +1,29 @@
 // ========================================
 // CARROUSEL DE IMÁGENES
-// Hecho con JavaScript vanilla y arrays
 // ========================================
 
 // Array de imágenes con sus descripciones
 // Aquí guardamos todas las imágenes que se mostrarán en el carrousel
 const imagenes = [
     {
-        url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800',
-        descripcion: 'Desarrollo Web Moderno'
+        url: 'assets/images/carousel/1.jpg',
+        descripcion: 'Imagen 1'
     },
     {
-        url: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800',
-        descripcion: 'Código Limpio y Eficiente'
+        url: 'assets/images/carousel/2.jpg',
+        descripcion: 'Imagen 2'
     },
     {
-        url: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800',
-        descripcion: 'Diseño Responsivo'
+        url: 'assets/images/carousel/3.jpg',
+        descripcion: 'Imagen 3'
     },
     {
-        url: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800',
-        descripcion: 'Tecnologías Modernas'
+        url: 'assets/images/carousel/4.jpg',
+        descripcion: 'Imagen 4'
     },
     {
-        url: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800',
-        descripcion: 'Innovación Digital'
+        url: 'assets/images/carousel/5.jpg',
+        descripcion: 'Imagen 5'
     }
 ];
 
